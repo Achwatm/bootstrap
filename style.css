@@ -1,0 +1,105 @@
+body{
+    box-sizing: padding-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+header{
+    margin: 0;
+    padding:11% 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/hero-bg.jpg") no-repeat;
+    background-size: cover;
+}
+header .col-6 p{
+    color:white;
+    font-weight: bold;
+    font-size: 55px;
+}
+.none{
+    background: none !important;
+    font-size: 1rem !important;
+}
+.center{
+    text-align: center;
+}
+h1{
+    font-size: 3rem;
+    color: white;
+}
+#header-title p{
+    font-size: 45px;
+    margin-bottom: 4.5%;
+}
+#start{
+    background-color: #03c4eb;
+}
+#send{
+    background-color: #03c4eb;
+}
+#services{
+    border-width: 3px;
+    color:white;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+.navbar{
+    box-sizing: border-box;
+    background-color:black;
+    font-size: 1rem;
+}
+.logo{
+    box-sizing: border-box;
+}
+.logo img{
+    margin-top: 2%;
+}
+.nav{
+margin-right:3%;
+    padding:0;
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+hr{
+    width: 3%;
+    border:1.5px solid #03c4eb;
+}
+i{
+    color:white;
+}
+.bg-primary{
+    background-color: #03c4eb !important;
+}
+#service{
+    background: linear-gradient(to right, rgba(255,255,255,0.8), rgba(255,255,255,0.8)), url("images/services-bg.jpg");
+
+}
+#subscribe{
+    border-width: 3px;
+    color:white;
+}
+#subscribe-section{
+    background: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/subscribe-bg.jpg");
+    background-position: 0 50%;
+}
+.client-photo{
+    border-width: 10px !important;
+}
+.card-body i{
+    font-size: 1rem;
+    color:gray;
+}
+.gray{
+    background-color: #f6f6f6;
+}
+.row i{
+    color: #03c4eb;
+    font-size: 2rem;
+}
+input, textarea{
+    color: #7a7a7a;
+}
